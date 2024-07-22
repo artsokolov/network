@@ -3,10 +3,10 @@ package db
 import (
 	"context"
 	"errors"
+	"github.com/artsokolov/network/config"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"social_network/config"
 	"time"
 )
 

@@ -1,10 +1,10 @@
 package handlers
 
 import (
+	"github.com/artsokolov/network/middleware"
+	"github.com/artsokolov/network/model"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"social_network/middleware"
-	"social_network/model"
 )
 
 func (handler *RouteHandler) Notifications(c *gin.Context) {

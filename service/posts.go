@@ -2,11 +2,11 @@ package service
 
 import (
 	"context"
+	"github.com/artsokolov/network/model"
+	"github.com/artsokolov/network/repository"
+	"github.com/artsokolov/network/request"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
-	"social_network/model"
-	"social_network/repository"
-	"social_network/request"
 )
 
 type Posts struct {

@@ -1,10 +1,10 @@
 package handlers
 
 import (
+	"github.com/artsokolov/network/middleware"
+	"github.com/artsokolov/network/repository"
+	"github.com/artsokolov/network/service"
 	"github.com/gin-gonic/gin"
-	"social_network/middleware"
-	"social_network/repository"
-	"social_network/service"
 )
 
 type RouteHandler struct {

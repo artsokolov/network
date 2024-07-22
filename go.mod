@@ -1,4 +1,4 @@
-module social_network
+module github.com/artsokolov/network
 
 go 1.23
 

@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"social_network/model"
-	"social_network/repository"
+	"github.com/artsokolov/network/model"
+	"github.com/artsokolov/network/repository"
 )
 
 type Notifications struct {

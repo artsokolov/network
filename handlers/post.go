@@ -1,11 +1,11 @@
 package handlers
 
 import (
+	"github.com/artsokolov/network/middleware"
+	"github.com/artsokolov/network/model"
+	"github.com/artsokolov/network/request"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"social_network/middleware"
-	"social_network/model"
-	"social_network/request"
 )
 
 func (handler *RouteHandler) CreatePost(c *gin.Context) {

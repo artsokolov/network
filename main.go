@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/artsokolov/network/config"
+	"github.com/artsokolov/network/db"
+	"github.com/artsokolov/network/handlers"
+	"github.com/artsokolov/network/repository"
+	"github.com/artsokolov/network/service"
 	"github.com/gin-gonic/gin"
 	"log"
-	"social_network/config"
-	"social_network/db"
-	"social_network/handlers"
-	"social_network/repository"
-	"social_network/service"
 )
 
 func main() {

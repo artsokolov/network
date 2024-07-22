@@ -6,23 +6,14 @@ import (
 )
 
 type Config struct {
-	dbUser string
-	dbPass string
 	dbName string
 	dbHost string
 }
 
 func Load() (*Config, error) {
-	dbName := os.Getenv("DB_NAME")
-	dbHost := os.Getenv("DB_HOST")
-	dbPass := os.Getenv("DB_PASS")
-	dbUser := os.Getenv("DB_USER")
-
 	return &Config{
-		dbUser,
-		dbPass,
-		dbName,
-		dbHost,
+		os.Getenv("DB_NAME"),
+		os.Getenv("DB_HOST"),
 	}, nil
 }
 

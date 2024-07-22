@@ -1,10 +1,10 @@
 package middleware
 
 import (
+	"github.com/artsokolov/network/auth"
+	"github.com/artsokolov/network/repository"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"social_network/auth"
-	"social_network/repository"
 )
 
 const AuthUserKey = "profile"

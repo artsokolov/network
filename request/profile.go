@@ -1,8 +1,8 @@
 package request
 
 import (
-	"social_network/auth"
-	"social_network/model"
+	"github.com/artsokolov/network/auth"
+	"github.com/artsokolov/network/model"
 )
 
 type CreateProfileRequest struct {

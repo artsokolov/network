@@ -4,6 +4,12 @@
 
 This project implements a simple social network. Features include:
 
+## How to run this project?
+You have to use only one command:
+```bash
+docker-compose up -d
+```
+
 ## Create User Profile
 
 - **Method:** POST
@@ -174,3 +180,4 @@ curl --request GET \
 	}
 ]
 ```
+*Note*: you will see notifications only in case another user liked your post.
