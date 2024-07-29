@@ -100,7 +100,7 @@ curl --request POST \
 ### Example request
 ```bash
 curl --request GET \
-  --url http://localhost:8080/api/posts \
+  --url http://localhost:8080/api/posts/ \
   --user artem@gmail.com:pass
 ```
 
